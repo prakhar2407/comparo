@@ -1,0 +1,418 @@
+/* NAVIGATION-BAR */
+
+#Navigation-Bar{
+  background-color: #222831;
+  padding: 20px 0 20px 0;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+@media (max-width:768px){
+  #Navigation-Bar{
+    padding-left: 5px;
+    padding-right: 5px;
+    padding: 20px 0 1px 0;
+  }
+}
+
+/* @media (max-width:360px){
+  #Navigation-Bar{
+    padding-left: 5px;
+    padding-right: 5px;
+    padding: 20px 0 1px 0;
+  }
+} */
+
+
+
+
+
+.Logo{
+  font-family: 'Sacramento', cursive;
+  font-size: 4rem;
+  color:#d92027;
+  font-weight: bolder;
+}
+
+@media (max-width:768px){
+  .Logo{
+    font-size: 3rem;
+
+  }
+}
+
+/* @media (max-width:360px){
+  .Logo{
+    font-style: 2rem;
+
+  }
+} */
+
+
+
+
+
+.navbar{
+  padding:2% 18% 2% 15%;
+}
+
+
+
+.Logo:hover{
+  color:#d92027;
+}
+
+.navbar-button{
+
+  background-color:white ;
+}
+
+.navbar-button:hover{
+  background-color: grey;
+}
+
+.navbar-togglericon{
+  background-image: url('https://mdbootstrap.com/img/svg/hamburger9.svg?color=FF2C00');
+}
+
+
+.nav-link{
+  color:white;
+  font-weight:lighter;
+  font-size: 15px;
+
+}
+
+.nav-item{
+  padding-right: 7px;
+}
+
+.nav-link:hover{
+  color:grey;
+}
+
+
+
+/* INTRODUCTION */
+
+#Introduction{
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+  background-color:#222831;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  color: white;
+  padding-bottom: 50px;
+
+}
+
+
+
+
+
+
+.tagline{
+  line-height: 1.5;
+  padding-bottom: 30px;
+}
+
+@media (max-width:768px){
+  .tagline{
+    line-height: 1.5;
+    font-size:2.3rem;
+  }
+}
+
+
+
+
+
+.col-1{
+  text-align: left;
+  padding-top: 20px;
+  padding-left:250px;
+  padding-right: 150px;
+  padding-bottom: 50px;
+}
+
+@media (max-width:768px){
+  .col-1{
+    font-size: 2rem;
+    padding-top: 10px;
+    text-align: center;
+    padding-left: 150px;
+    padding-bottom: 50px;
+  }
+}
+
+/* @media (max-width:360px){
+  .col-1{
+    font-size: 2rem;
+    padding-top: 10px;
+    text-align: center;
+    padding-left: 150px;
+    padding-bottom: 50px;
+  }
+} */
+
+
+
+
+
+
+
+
+.col-2{
+  /* padding-top:2%; */
+  padding-right: 30%;
+}
+
+@media (max-width:768px){
+  .col-2{
+    padding-right:5%;
+
+  }
+}
+
+/* @media(max-width:360px){
+  .col-2{
+
+  }
+} */
+
+
+
+
+.btn-IOS{
+  background-color:#d92027;
+  color:white;
+  margin-right:10px;
+}
+
+.btn-IOS:hover{
+
+  color:#222831;
+}
+
+.btn-ANDROID{
+  border-color:#d92027;
+  color:white;
+  margin-left:10px
+}
+
+.btn-ANDROID:hover{
+  background-color: #d92027;
+}
+
+.Phone-image{
+  width: 550px;
+  /* transform: rotate(-10deg); */
+  padding-left: 0;
+  margin-left: 0;
+  padding-right:100px;
+}
+
+@media (max-width:768px){
+  .Phone-image{
+    width: 70%;
+    padding-right: 1px;
+  }
+}
+
+
+
+  /* FEATURES */
+
+  #Features{
+    text-align: center;
+    padding:7% 15%;
+
+
+  }
+
+  .features{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  h2{
+    color:#222831;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bolder;
+  }
+
+  p{
+    color:#222831;
+    font-weight:normal;
+  }
+
+  .fa-4x{
+  padding-bottom: 10px;
+  color: #d92027;
+}
+
+@media (max-width:768px){
+  .feature-1{
+    padding-bottom: 60px;
+  }
+}
+
+
+
+
+/* HOTTEST COMPARISONS */
+
+#reviews{
+  padding: 7% 9%;
+  text-align: center;
+  background-color:#222831;
+}
+
+
+.phone-name{
+  color:white;
+  text-align: center;
+  font-size:2rem;
+  /* font-weight: bolder; */
+}
+
+@media (max-width:768px){
+  .phone-name{
+    font-size: 1.2rem
+  }
+}
+
+
+
+.Hottest-Comparisons{
+  font-size: 4rem;
+  color: white;
+  font-family: 'Montserrat Alternates', sans-serif;
+  padding-bottom: 50px;
+}
+
+@media(max-width:768px){
+  .Hottest-Comparisons{
+    font-size: 2.5rem;
+    padding-bottom: 50px;
+  }
+}
+
+
+
+
+.vs-comparisons1{
+  padding-right: 0px;
+  padding-left: 100px;
+}
+
+@media(max-width:768px){
+  .vs-comparisons1{
+    padding-left: 10px;
+    text-align: center;
+  }
+}
+
+.vs-comparisons{
+  width:100px;
+}
+
+
+
+.vs-comparisons2{
+  padding-right: 100px;
+  padding-left: 0px;
+}
+
+@media(max-width:768px) {
+  .vs-comparisons2{
+    text-align: center;
+    padding-right: 50
+  }
+
+}
+
+.moto{
+  width: 285px;
+  padding-bottom: 50px;
+}
+
+
+@media(max-width:768px){
+  .moto{
+    width:200px;
+  }
+}
+
+.poco{
+  width:300px;
+  padding-bottom: 50px;
+}
+@media(max-width:768px){
+  .poco{
+    width:200px;
+  }
+}
+
+
+.vs{
+  padding-top: 120px;
+  width:200px;
+}
+
+@media(max-width:768px){
+  .vs{
+    width:50px;
+  }
+}
+
+
+
+
+/* RAINGS */
+.rating{
+  color: #d92027;
+}
+
+
+/* SHOP */
+#Shop{
+  text-align: center;
+  background-color: white;
+  padding: 3% 15% 10% 15%;
+
+}
+
+.shop1{
+  font-size: 4rem;
+  color: #222831;
+  font-family: 'Montserrat Alternates', sans-serif;
+  padding-bottom: 200px;
+}
+
+.coming-soon{
+  font-family: 'Sacramento', cursive;
+  font-size: 5rem;
+  color:#d92027;
+  font-weight:normal;
+  padding-bottom: 150px;
+
+}
+
+/* FOOTER */
+#footer{
+  padding: 1px 200px 1px 200px;
+  background-color: #d92027;
+  text-align: center;
+}
+
+.Copyright{
+  padding-top: 50px;
+  color: white;
+}
+
+.font-awesome-copyright{
+  margin:50px 10px 1px 10px;
+  color: white;
+}
